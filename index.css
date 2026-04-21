@@ -32,3 +32,12 @@ body {
     background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     color: #333; /* 文字は真っ黒より、少しグレーの方が目に優しいです */
 }
+/* ページを開いたときにふわっと表示させる */
+header {
+    animation: fadeIn 3s ease-in;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
