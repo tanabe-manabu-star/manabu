@@ -27,3 +27,8 @@ header {
 
 h1 { color: #333; }
 .subtitle { color: #666; }
+body {
+    /* 暖かみのある朝もやのようなグラデーション */
+    background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    color: #333; /* 文字は真っ黒より、少しグレーの方が目に優しいです */
+}
