@@ -1,0 +1,15 @@
+header {
+    text-align: center; /* 中央寄せ */
+    padding: 20px;
+    background-color: #f0f0f0; /* 背景色 */
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.author {
+    font-weight: bold;
+    margin-top: 10px;
+}
