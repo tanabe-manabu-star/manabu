@@ -13,3 +13,17 @@ header {
     font-weight: bold;
     margin-top: 10px;
 }
+body {
+    background-color: #f0f0f0; /* 薄いグレー */
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #ddd;
+}
+
+h1 { color: #333; }
+.subtitle { color: #666; }
