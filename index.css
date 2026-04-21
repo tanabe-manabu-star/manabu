@@ -41,3 +41,30 @@ header {
     0% { opacity: 0; }
     100% { opacity: 1; }
 }
+/* キャラクターの見た目設定 */
+.character {
+    width: 150px; /* 好きな大きさに変えてください */
+    height: auto;
+    margin-bottom: 20px;
+    
+    /* ふわふわ浮くアニメーションの設定 */
+    animation: fuwafuwa 3s ease-in-out infinite;
+}
+
+/* アニメーションの動きを作る */
+@keyframes fuwafuwa {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px); /* 15px上に浮き上がる */
+    }
+}
+
+/* ついでに背景色もくつろぎカラーに */
+body {
+    background-color: #fdf5e6; /* 温かみのあるオールドレース色 */
+    color: #333;
+    text-align: center;
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+}
